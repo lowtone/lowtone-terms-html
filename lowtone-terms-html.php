@@ -37,8 +37,7 @@ namespace lowtone\terms\html {
 
 			wp_editor(html_entity_decode($term->description), "html_description", $editorOptions);
 
-			echo '<br />' .
-				'<span class="description">' . __('The description is not prominent by default; however, some themes may show it.') . '</span></td>' .
+			echo '<span class="description">' . __('The description is not prominent by default; however, some themes may show it.') . '</span></td>' .
 				'</tr>';
 		};
 
